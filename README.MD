@@ -10,11 +10,11 @@ Project repo:
 # Step 2. Create a conda environment after opening the repository
 
 ``` bash
-conda create -n llmapp python=3.8 -y
+conda create -n medibot python=3.10 -y
 ```
 
 ```bash
-conda activate llmap
+conda activate medibot
 ```
 
 # Step 3. install the requirements
