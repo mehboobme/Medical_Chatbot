@@ -1,4 +1,4 @@
-# End to End Medical Chatbot Generative AI
+# End to End Medical Chatbot Geneerative AI
 
 # How to run steps:
 
@@ -21,32 +21,6 @@ conda activate medibot
 ```bash
 pip install -r requirements.txt
 ```
-### create a `.env` file in the root directory and add your pinecone & OPENAI credentials as follows:
-
-```ini
-PINECONE_API_KEY="................."
-OPENAI_API_KEY="..................."
-
-```bash
-# run the following command to store embeddings to pinecone
-python store_index.py
-
-```bash
-# finally run the following command
-python app.py
-```
-
-Now,
-```bash
-open up localhost:
-```
-
-### Techstack Used:
-
-- Python
-- Langchain
-- GPT
-- Pinecone
 
 # AWS-CICD-Deployment-with-Github-Actions
 
@@ -80,11 +54,17 @@ open up localhost:
 
     #optional
     sudo apt-get update -y
-    sudo apt-get upgratde
+    sudo apt-get upgrade
 
     #required
 
-    curl
+    curl -fsSL https://get.docker.com -o get-docker.sh
+
+    sudo sh get-docker.sh
+
+    sudo usermod -aG docker ubuntu
+
+    newgrp docker
 
 ## 6. Configure EC2 as sefl-hosted runner:
 
