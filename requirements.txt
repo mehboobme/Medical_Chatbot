@@ -8,5 +8,5 @@ langchain-pinecone
 langchain_community
 langchain_openai
 langchain_experimental
-
+huggingface_hub>=0.15.1
 - e .......................
